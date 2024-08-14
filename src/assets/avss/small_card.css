@@ -1,0 +1,129 @@
+.small-card {
+    width: 468px;
+    height: 128px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    padding: 16px;
+}
+
+.small-card__content {
+
+}
+
+.small-card__content-title {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000;
+    margin-bottom: 8px;
+}
+
+.small-card__content-body {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #474A4F;
+}
+
+.small-card__icon {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 96px;
+    color: #000000;
+}
+
+.avss-section {
+    width: 972px;
+    margin: auto;
+}
+
+.avss-section__small_cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.avss-section__small_cards > *{
+    margin-bottom: 32px;
+    margin-right: 32px;
+}
+
+.avss-section__small_cards > *:nth-child(even) {
+    margin-bottom: 32px;
+    margin-right: 0px;
+}
+
+.avss-card {
+    width: 372px;
+    height: 128px;
+    padding: 16px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+}
+
+.avss-card--big {
+    width: 972px;
+}
+
+.avss-card__title {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.avss-card__icon {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 96px;
+    color: #000000;
+}
+
+.avss-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+
+    background: #117BDD;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-style: none;
+    border-radius: 8px;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    /* text light */
+
+    color: #FFFFFF;
+}
+
+.avss-button--green {
+    background: #86D900;
+}
+
+.avss-button--blue {
+
+}
+
+.avss-button--danger {
+    background: #F55147;
+}

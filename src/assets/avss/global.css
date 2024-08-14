@@ -1,0 +1,239 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box !important;
+    font-family: 'Cabin', sans-serif;
+}
+
+body {
+    background-color: #EAF3F5;
+    height: 100vh;
+} 
+
+ul {
+    list-style: none;
+}
+
+hr {
+    border-top: 1px solid #474a4f26;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+    height: 100%;
+}
+
+.form-wrapper {
+    width: 65%;
+    background-color: #FFFFFF;
+    padding: 1.5rem;
+    padding-bottom: 2rem;
+    border-radius: .5rem;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 2rem 1.5rem;
+}
+
+fieldset {
+    border: none;
+}
+
+.field {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-bottom: 1.25rem;
+}
+
+.field__input {
+    width: 100%;
+    border-radius: .25rem;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(71, 74, 79, .5);
+    padding: .5rem 0 .5rem 1rem;
+    font-size: 1rem;
+}
+
+textarea.field_input {
+    resize: vertical;
+}
+
+.field__label {
+    color: #474A4F;
+}
+
+.field__input::placeholder {
+    color: rgba(71, 74, 79, .5);
+}
+
+.field__input:focus, 
+.field__input:focus-visible,
+.field__input--points:focus, 
+.field__input--points:focus-visible {
+    outline: 1px solid #83BEDF;
+}
+
+.fields--inline {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.field__input--points {
+    border: none;
+    border-bottom: 1px solid rgba(71, 74, 79, .5);
+    padding: .25rem;
+}
+
+.radio-inputs {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    align-self: flex-start;
+}
+
+.radio-inputs--vertical {
+    display: flex;
+    flex-direction: column;
+    gap: .625rem;
+    padding-top: .5rem;
+    margin-bottom: 1.5rem;
+}
+
+.radio-inputs > .field__label {
+    margin-bottom: .5rem;
+}
+
+.radio-inputs > .radio-field {
+    padding-bottom: .5rem;
+}
+
+.difficulty-container {
+    width: 100%;
+}
+
+.field__input--file {
+   display: none; 
+}
+
+.field__label--file {
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+}
+
+.radio-field {
+    display: flex;
+    align-items: center;
+    gap: .5rem
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    margin: 0;
+    width: 1.125rem;
+    height: 1.125rem;
+    border: 2px solid #0C5598;
+    border-radius: 4px;
+    display: grid;
+    place-content: center;
+}
+
+input[type="checkbox"]::before {
+    content: "";
+    width: 0.65rem;
+    height: 0.65rem;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    background-color: #0C5598;
+    transform-origin: bottom left;
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+}
+
+input[type="checkbox"]:checked::before {
+    transform: scale(1);
+}
+
+.login {
+    position: relative;
+    width: 35%;
+}
+
+.blue-box {
+    background-color: #83BEDF;
+    padding: 1rem;
+    width: 80%;
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: .5rem;
+    text-align: center;
+}
+
+.new_user{
+    padding-top: 3.5rem;
+}
+
+.new_user h6 {
+    text-align: center;
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+}
+
+.new_user .fields--inline {
+    justify-content: space-between;
+}
+
+.new_user .actions {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.new_user .button {
+    width: 100%;
+    margin-bottom: .5rem;
+}
+
+.circuit-submissions__new {
+    width: 40%;
+}
+
+#filter-list,
+#application_list {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .form-wrapper,
+    .circuit-submissions__new {
+        width: 90%;
+    }
+    
+    .fields--inline {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .new_user .fields--inline {
+        flex-direction: row;
+    }
+}

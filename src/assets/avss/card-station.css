@@ -1,0 +1,46 @@
+.container__form {
+    padding-top: 1.25rem;
+}
+
+.container__section__title {
+    padding-bottom: 1rem;
+}
+
+.stations-list {
+    margin-top: 1.25rem;
+}
+
+.card-station {
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    border-radius: .25rem;
+}
+
+.card-station__header,
+.card-station__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-station__header {
+    padding-bottom: 1rem;
+}
+
+.card-station__title {
+    font-size: 1.25rem;
+}
+
+.card-station__count {
+    font-size: 1rem;
+    font-weight: normal;
+    color: #474A4F;
+}
+
+.card-station__footer {
+    padding-top: 1rem;
+}
+
+.card-station__last-update {
+    font-size: 12px;
+}

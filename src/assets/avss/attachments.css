@@ -1,0 +1,47 @@
+.attachments-container {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.attachments-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    border-radius: .5rem;
+    overflow: hidden;
+}
+
+.attachments-table th,
+.attachments-table, td {
+    text-align: center;
+    padding: .5rem 1rem;
+}
+
+.attachments-table tr:nth-child(odd) {
+    background-color: #F9F9F9;
+}
+
+.attachments-table tr:nth-child(even) {
+    background-color: #F3F3F3;
+}
+
+.attachments-table th {
+    background-color: #117add3f;
+}
+
+.attachments__btn-add {
+    border: #117add dashed 2px;
+    background-color: transparent;
+    border-radius: .25rem;
+    width: 100%;
+    color: #117add;
+    margin-top: 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.attachments__btn-add:hover {
+    background-color: #117add3f;
+}

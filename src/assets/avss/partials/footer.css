@@ -1,0 +1,18 @@
+.footer {
+    background-color: #272A23;
+    color: #FFFFFF;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.footer__copyright {
+    display: block;
+    color: rgba(255, 255, 255, .5);
+    margin-bottom: 2rem;
+}
+
+.footer__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
