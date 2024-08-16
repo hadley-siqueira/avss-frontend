@@ -78,21 +78,34 @@
 			</div>
 		</header>
 
-	<ul class="flex flex-row space-x-10">
-        <li class="mr-4">
-            <RouterLink to="/" class="text-xl font-bold text-indigo-700">Início</RouterLink>
-        </li>
 
-        <li class="mr-4">
-            <RouterLink to="/" class="text-xl font-bold text-indigo-700">Funcionalidades</RouterLink>
-        </li>
+    <div class="flex flex-row justify-center">
+        <div class="flex flex-row items-center justify-between w-3/5">
+            <div>
+                <span class="logo__first">A</span>VSS
+            </div>
 
-        <li class="mr-4">
-            <RouterLink to="/" class="text-xl font-bold text-indigo-700">Sobre nós</RouterLink>
-        </li>
+            <ul class="flex flex-row space-x-10">
+                <li class="mr-4">
+                    <RouterLink to="/" class="text-xl font-bold text-indigo-700">Início</RouterLink>
+                </li>
 
-        <li class="mr-4">
-            <RouterLink to="/" class="text-xl font-bold text-indigo-700">Cadastre-se</RouterLink>
-        </li>
-	</ul>
+                <li class="mr-4">
+                    <RouterLink to="/" class="text-xl font-bold text-indigo-700">Funcionalidades</RouterLink>
+                </li>
+
+                <li class="mr-4">
+                    <RouterLink to="/" class="text-xl font-bold text-indigo-700">Sobre nós</RouterLink>
+                </li>
+
+                <li class="mr-4">
+                    <RouterLink to="/" class="text-xl font-bold text-indigo-700">Cadastre-se</RouterLink>
+                </li>
+            </ul>
+
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+              Button
+            </button>
+        </div>
+    </div>
 </template>
