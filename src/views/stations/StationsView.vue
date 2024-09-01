@@ -22,7 +22,7 @@ import StationCard from "@/components/StationCard.vue";
           <label for="title" class="text-sm">Pesquisar</label>
           <input
             type="text"
-            placeholder="Título da situação problema"
+            placeholder="Título da estação"
             name="title"
             id="title"
             class="w-full px-4 py-2 h-10 rounded-lg bg-transparent border border-slate-400"
