@@ -15,9 +15,14 @@ import Button from "./Button.vue";
       para permitir que o usuário entenda do que se trata sem necessitar
       clicar...
     </p>
-    <div class="mt-6 flex items-center justify-end w-full gap-4">
-      <button class="text-primary-800 hover:underline">Acessar</button>
-      <Button size="small" variant="outlined"> Aplicar </Button>
+    <div class="mt-6 flex items-center justify-between w-full">
+      <p class="text-sm w-full text-slate-500">
+        Última atualização: 20/04/2021
+      </p>
+      <div class="flex items-center justify-end w-full gap-4">
+        <button class="text-primary-800 hover:underline">Acessar</button>
+        <Button size="small" variant="outlined"> Aplicar </Button>
+      </div>
     </div>
   </div>
 </template>
