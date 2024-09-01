@@ -1,7 +1,7 @@
 <script setup>
 import Button from "@/components/Button.vue";
-import CircuitCard from "@/components/CircuitCard.vue";
 import Navbar from "@/components/Navbar.vue";
+import StationCard from "@/components/StationCard.vue";
 </script>
 
 <template>
@@ -14,7 +14,7 @@ import Navbar from "@/components/Navbar.vue";
       <h1
         class="text-2xl font-bold text-primary-900 border-b border-slate-300 pb-2"
       >
-        Situações problema
+        Estações
       </h1>
 
       <div class="mt-10 w-full flex flex-wrap items-end justify-between">
@@ -29,11 +29,11 @@ import Navbar from "@/components/Navbar.vue";
           />
         </div>
 
-        <Button> Criar Situação Problema </Button>
+        <Button> Criar Estação </Button>
       </div>
 
       <div class="w-full mt-14">
-        <CircuitCard />
+        <StationCard />
       </div>
     </main>
   </div>
